@@ -1,10 +1,8 @@
 *{
     margin: 0;
     padding: 0;
-    box-sizing: border-box;  
+    box-sizing: border-box;
 }
-
-
 
 body{
     background-color: rgb(203, 20, 20);
@@ -21,14 +19,14 @@ header{
 
 header .logo{
     margin-right: auto;
-    cursor:pointer 
+    cursor:pointer
 }
 
 header .logo img{
     border: none;
     height: 80px;
     align-items: end;
-    transition: all 0.3s;   
+    transition: all 0.3s;
 } 
 
 header .nav-link {
@@ -41,10 +39,10 @@ header .nav-link li{
     padding:  15px;
 }
 
+
 header .nav-link a{ 
     font-size: 700;
     text-decoration: none;
-
 }
 
 .btn-principal{
@@ -86,11 +84,12 @@ main .img1{
 .wave{
     position: absolute;
     bottom: 0;
-    width: 100%;   
+    width: 100%;
 }
 
 div .imgfondo{
-    width: 100%;     
+    width: 100%;
+      
 }
 
 main .move{
@@ -105,27 +104,42 @@ main .move .title1{
     text-align: center;
     border-radius: 10px;
     margin-left: 500px;
-
 }
 
-div h3{
+
+.resumen {
     font-size: x-large;
     padding: 20px;
+    display: flex;
+    width: 100%;
 }
 
-div p{
-    font-family: Calibri, 'Trebuchet MS', sans-serif;
-    color: rgb(2, 15, 27);
-    text-align: center;
-    line-height: 25px;
+.titulo{
+    padding: 10px 5px 5px 5px;
     margin: auto;
+    font-size: 50px;
+    margin-left: 30px;
+    width: auto;
+    
+}
+
+.text-deco{
+    font-family: Calibri, 'Trebuchet MS', sans-serif;
+    color: rgb(12, 83, 150);
+    text-align: center;
+    font-size:x-large;
+    padding: 30px 40px 30px 40px;
+    margin: auto;
+}
+
+.carousel-inner{
+    border-radius: 60px;
 }
 
 .text-container {
     width: 100%;
     padding: 10px;
     justify-content: space-evenly;
-
 }
 
 .prin-container{
@@ -133,7 +147,6 @@ div p{
     flex-wrap: wrap;
     justify-content: center;
     width: 100%;
-
 }
 
 section .tarjetas{
@@ -141,7 +154,7 @@ section .tarjetas{
     display: inline-block;
     margin: 30px;
     width: 19rem;
-    height: 30rem;
+    height: 27rem;
     border-radius: 20px;
     box-shadow: 0 0 6px 0 rgba(0, 0, 0, 0.6);
     background: #8E2DE2;  /* fallback for old browsers */
@@ -153,6 +166,7 @@ background: linear-gradient(to right, #4A00E0, #8E2DE2); /* W3C, IE 10+/ Edge, F
     width: 19rem;
     border-radius: 20px;
 }
+
 
 main .grid-prin{
     padding: 10px 40px 5px 40px ;
@@ -173,7 +187,8 @@ main .grid-prin{
 }
 
 .area{
-    border-radius: 60px; 
+
+    border-radius: 60px;
 }
 
 #area1{
@@ -181,11 +196,12 @@ main .grid-prin{
 }
 
 #area2{
-    grid-area: area2;    
+    grid-area: area2;
 }
 
 #area3{
-    grid-area: area3; 
+    grid-area: area3;
+
 }
 
 #area4{
@@ -205,11 +221,11 @@ main .grid-prin{
 }
 
 #area8{
-    grid-area: area8; 
+    grid-area: area8;
 }
 
 #area9{
-    grid-area: area9;   
+    grid-area: area9;
 }
 
 section .grid .entre{
@@ -261,19 +277,19 @@ main .person{
     width: 40%;
     height: 160px;
     align-items: center;
-    
     justify-content: space-evenly;
     border-radius: 50px;
     box-shadow: 0 0 6px 0 rgba(0, 0, 0, 0.6);
-  background: #0F2027;  /* fallback for old browsers */
-  background: -webkit-linear-gradient(to right, #2C5364, #203A43, #0F2027);  /* Chrome 10-25, Safari 5.1-6 */
-  background: linear-gradient(to right, #2C5364, #203A43, #0F2027); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+      background: #0F2027;  /* fallback for old browsers */
+      background: -webkit-linear-gradient(to right, #2C5364, #203A43, #0F2027);  /* Chrome 10-25, Safari 5.1-6 */
+      background: linear-gradient(to right, #2C5364, #203A43, #0F2027); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
   min-width: 450px;
   }
 
-main .text-person{
+main .coment .text-person{
     width: 60%;
-    justify-content: center;  
+    justify-content: center;
+
 }
 
 .text{
@@ -290,10 +306,10 @@ main .text-person{
     object-fit: cover;
     border: 3px solid #fff;
     border-radius: 50%;
+    
 }
-
 .person .img4{
-    width: 100px;
+  width: 100px;
   height: 100px;
   object-fit: cover;
   border: 3px solid #fff;
@@ -303,14 +319,14 @@ main .text-person{
 footer{
     display: flex;
     justify-content: space-around;
-    background-color: #335C81; 
+    background-color: #335C81;
+    
 }
 
 footer .copy{
     color: aliceblue;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
-
 footer .redes{
     display: flex;
     justify-content: space-around;
@@ -323,26 +339,24 @@ footer .redes a{
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     text-decoration: none;
     }
+
 .img-propia{
     width: 100%;
     height: 400px;
 }
 
 @media (max-width: 768px) {
-     main .fondo{
+main .fondo{
         background-position: center;
     }
-     main .img1{
+main .img1{
         background-position: center;
         
 main .person{
     background-position: center;
-
 }
-
-    }
+}
     .grid {
-border: 1px solid rgb(0, 0, 0);
 margin: 5px;
 display: grid;
 grid-template-columns: repeat(4, 1fr);
@@ -357,13 +371,12 @@ grid-template-areas:
 }
 
   /* Tamaño celular */
-  @media (max-width: 450px) {
-    .grid {
-      
-      margin: 5px;
-      display: grid;
-      grid-template-columns: repeat(1, 1fr);
-      grid-template-rows: repeat(8, 150px);
+@media (max-width: 450px) {
+.grid {
+margin: 5px;
+display: grid;
+grid-template-columns: repeat(1, 1fr);
+grid-template-rows: repeat(8, 150px);
       /* gap: 10px; */
       grid-template-areas:
         "area1"
@@ -376,7 +389,7 @@ grid-template-areas:
         "area8";
     }
   }
-    
+
 main .formcontainer{
     padding: 10px 100px 5px 100px ;
 }
@@ -384,5 +397,3 @@ main .formcontainer{
 .titlecontacto{
     margin-bottom: 30px;
 }
-
-
