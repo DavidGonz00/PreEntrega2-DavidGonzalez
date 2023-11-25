@@ -5,11 +5,8 @@
     
 }
 
-
-
 body{
     background-color: rgb(203, 20, 20);
-
 }
 
 header{
@@ -19,13 +16,11 @@ header{
     align-items: center;
     height: 85;
     padding: 5px 5%;
-
 }
 
 header .logo{
     margin-right: auto;
-    cursor:pointer
-    
+    cursor:pointer   
 }
 
 header .logo img{
@@ -156,19 +151,14 @@ section .tarjetas{
     border-radius: 20px;
     box-shadow: 0 0 6px 0 rgba(0, 0, 0, 0.6);
     background: #8E2DE2;  /* fallback for old browsers */
-background: -webkit-linear-gradient(to right, #4A00E0, #8E2DE2);  /* Chrome 10-25, Safari 5.1-6 */
-background: linear-gradient(to right, #4A00E0, #8E2DE2); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-
-    
-
+    background: -webkit-linear-gradient(to right, #4A00E0, #8E2DE2);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #4A00E0, #8E2DE2); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 }
-
 
 .tarjetas img{
     width: 19rem;
     border-radius: 20px;
 }
-
 
 main .grid-prin{
     padding: 10px 40px 5px 40px ;
@@ -191,54 +181,42 @@ main .grid-prin{
 .area{
 
     border-radius: 60px;
-    
 }
 
 #area1{
     grid-area: area1;
-    ;
-    
 }
 
 #area2{
     grid-area: area2;
-      
 }
 
 #area3{
     grid-area: area3;
-    ;
-    
 }
 
 #area4{
     grid-area: area4;
-    ;
 }
 
 #area5{
     grid-area: area5;
-    ;
 }
 
 #area6{
     grid-area: area6;
-    ;
 }
 
 #area7{
     grid-area: area7;
-    
 }
 
 #area8{
     grid-area: area8;
-    
 }
 
 #area9{
     grid-area: area9;
-    
 }
 section .grid .entre{
     width: 100%;
@@ -246,6 +224,7 @@ section .grid .entre{
     object-fit: cover;
     border-radius: 60px;
 }
+
 main section .titulo-coment{
   color: #642a73;
   font-size: 30px;
@@ -277,10 +256,10 @@ main .person1{
   justify-content: space-evenly;
   border-radius: 50px;
   box-shadow: 0 0 6px 0 rgba(0, 0, 0, 0.6);
-    background: #0F2027;  /* fallback for old browsers */
-    background: -webkit-linear-gradient(to right, #2C5364, #203A43, #0F2027);  /* Chrome 10-25, Safari 5.1-6 */
-    background: linear-gradient(to right, #2C5364, #203A43, #0F2027); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-min-width: 450px;
+  background: #0F2027;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #2C5364, #203A43, #0F2027);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #2C5364, #203A43, #0F2027); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  min-width: 450px;
 }
 
 main .person{
@@ -288,7 +267,6 @@ main .person{
     width: 40%;
     height: 160px;
     align-items: center;
-    
     justify-content: space-evenly;
     border-radius: 50px;
     box-shadow: 0 0 6px 0 rgba(0, 0, 0, 0.6);
@@ -297,6 +275,7 @@ main .person{
       background: linear-gradient(to right, #2C5364, #203A43, #0F2027); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
   min-width: 450px;
   }
+
 main .text-person{
     width: 60%;
     justify-content: center;
@@ -316,13 +295,7 @@ main .text-person{
   object-fit: cover;
   border: 3px solid #fff;
   border-radius: 50%;
-  
-    
-
 }
-
-
-
 
 footer{
     display: flex;
@@ -352,8 +325,6 @@ footer .redes a{
     height: 400px;
 }
     
-
-
 @media (max-width: 768px) {
      main .fondo{
         background-position: center;
@@ -363,24 +334,22 @@ footer .redes a{
         
 main .person{
     background-position: center;
-
 }
 
     }
-    .grid {
-      border: 1px solid rgb(0, 0, 0);
-      margin: 5px;
-      display: grid;
-      grid-template-columns: repeat(4, 1fr);
-      grid-template-rows: repeat(4, 200px);
-      /* gap: 10px; */
-      grid-template-areas:
+.grid {
+border: 1px solid rgb(0, 0, 0);
+margin: 5px;
+display: grid;
+grid-template-columns: repeat(4, 1fr);
+grid-template-rows: repeat(4, 200px);
+/* gap: 10px; */
+grid-template-areas:
     "area1 area2 area3 area4"
     "area1 area2 area3 area4"
     "area5 area6 area7 area8"
     "area5 area6 area7 area8"
     
-      ;
     }
   }
   /* Tamaño celular */
@@ -404,10 +373,6 @@ main .person{
     }
   }
     
-    
-    
-
-
 main .formcontainer{
     padding: 10px 100px 5px 100px ;
 }
