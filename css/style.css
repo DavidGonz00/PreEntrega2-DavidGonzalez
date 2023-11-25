@@ -1,9 +1,10 @@
 *{
     margin: 0;
     padding: 0;
-    box-sizing: border-box;
-    
+    box-sizing: border-box;  
 }
+
+
 
 body{
     background-color: rgb(203, 20, 20);
@@ -20,17 +21,16 @@ header{
 
 header .logo{
     margin-right: auto;
-    cursor:pointer   
+    cursor:pointer 
 }
 
 header .logo img{
     border: none;
     height: 80px;
     align-items: end;
-    transition: all 0.3s;
-    
-
+    transition: all 0.3s;   
 } 
+
 header .nav-link {
      list-style: none;
      align-content: end;
@@ -39,9 +39,7 @@ header .nav-link {
 header .nav-link li{
     display: inline-block;
     padding:  15px;
-
 }
-
 
 header .nav-link a{ 
     font-size: 700;
@@ -84,16 +82,15 @@ main .img1{
     background-attachment: fixed;
     position: relative;
 }
+
 .wave{
     position: absolute;
     bottom: 0;
-    width: 100%;
-    
+    width: 100%;   
 }
 
 div .imgfondo{
-    width: 100%;
-      
+    width: 100%;     
 }
 
 main .move{
@@ -110,9 +107,6 @@ main .move .title1{
     margin-left: 500px;
 
 }
-
-
-
 
 div h3{
     font-size: x-large;
@@ -151,8 +145,8 @@ section .tarjetas{
     border-radius: 20px;
     box-shadow: 0 0 6px 0 rgba(0, 0, 0, 0.6);
     background: #8E2DE2;  /* fallback for old browsers */
-    background: -webkit-linear-gradient(to right, #4A00E0, #8E2DE2);  /* Chrome 10-25, Safari 5.1-6 */
-    background: linear-gradient(to right, #4A00E0, #8E2DE2); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+background: -webkit-linear-gradient(to right, #4A00E0, #8E2DE2);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #4A00E0, #8E2DE2); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 }
 
 .tarjetas img{
@@ -179,8 +173,7 @@ main .grid-prin{
 }
 
 .area{
-
-    border-radius: 60px;
+    border-radius: 60px; 
 }
 
 #area1{
@@ -188,11 +181,11 @@ main .grid-prin{
 }
 
 #area2{
-    grid-area: area2;
+    grid-area: area2;    
 }
 
 #area3{
-    grid-area: area3;
+    grid-area: area3; 
 }
 
 #area4{
@@ -212,12 +205,13 @@ main .grid-prin{
 }
 
 #area8{
-    grid-area: area8;
+    grid-area: area8; 
 }
 
 #area9{
-    grid-area: area9;
+    grid-area: area9;   
 }
+
 section .grid .entre{
     width: 100%;
     height: 100%;
@@ -256,10 +250,10 @@ main .person1{
   justify-content: space-evenly;
   border-radius: 50px;
   box-shadow: 0 0 6px 0 rgba(0, 0, 0, 0.6);
-  background: #0F2027;  /* fallback for old browsers */
-  background: -webkit-linear-gradient(to right, #2C5364, #203A43, #0F2027);  /* Chrome 10-25, Safari 5.1-6 */
-  background: linear-gradient(to right, #2C5364, #203A43, #0F2027); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-  min-width: 450px;
+    background: #0F2027;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #2C5364, #203A43, #0F2027);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #2C5364, #203A43, #0F2027); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+min-width: 450px;
 }
 
 main .person{
@@ -267,19 +261,27 @@ main .person{
     width: 40%;
     height: 160px;
     align-items: center;
+    
     justify-content: space-evenly;
     border-radius: 50px;
     box-shadow: 0 0 6px 0 rgba(0, 0, 0, 0.6);
-      background: #0F2027;  /* fallback for old browsers */
-      background: -webkit-linear-gradient(to right, #2C5364, #203A43, #0F2027);  /* Chrome 10-25, Safari 5.1-6 */
-      background: linear-gradient(to right, #2C5364, #203A43, #0F2027); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  background: #0F2027;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #2C5364, #203A43, #0F2027);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #2C5364, #203A43, #0F2027); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
   min-width: 450px;
   }
 
 main .text-person{
     width: 60%;
-    justify-content: center;
-    background: #f1f3f4;
+    justify-content: center;  
+}
+
+.text{
+    color: #fff;
+}
+
+.name-text{
+    color: aliceblue;
 }
 
 .person1 .img4{
@@ -288,8 +290,8 @@ main .text-person{
     object-fit: cover;
     border: 3px solid #fff;
     border-radius: 50%;
-    
 }
+
 .person .img4{
     width: 100px;
   height: 100px;
@@ -301,13 +303,14 @@ main .text-person{
 footer{
     display: flex;
     justify-content: space-around;
-    background-color: #335C81;
-    
+    background-color: #335C81; 
 }
+
 footer .copy{
     color: aliceblue;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
+
 footer .redes{
     display: flex;
     justify-content: space-around;
@@ -320,12 +323,11 @@ footer .redes a{
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     text-decoration: none;
     }
-
 .img-propia{
     width: 100%;
     height: 400px;
 }
-    
+
 @media (max-width: 768px) {
      main .fondo{
         background-position: center;
@@ -335,10 +337,11 @@ footer .redes a{
         
 main .person{
     background-position: center;
+
 }
 
     }
-.grid {
+    .grid {
 border: 1px solid rgb(0, 0, 0);
 margin: 5px;
 display: grid;
@@ -350,9 +353,9 @@ grid-template-areas:
     "area1 area2 area3 area4"
     "area5 area6 area7 area8"
     "area5 area6 area7 area8"
-    
     }
-  }
+}
+
   /* Tamaño celular */
   @media (max-width: 450px) {
     .grid {
@@ -381,4 +384,5 @@ main .formcontainer{
 .titlecontacto{
     margin-bottom: 30px;
 }
+
 
